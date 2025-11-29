@@ -6,6 +6,33 @@ body {
   color: #333;
 }
 
+/* ---------- Sidebar Container ---------- */
+.sidebar {
+  position: fixed;       /* makes it sticky */
+  top: 0;
+  left: 0;
+  height: 100vh;         /* full height */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;             /* space between About / Projects */
+}
+
+/* Navigation links */
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Active page gets bigger font & bold */
+.nav-link.active {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* ---------- Text Container ---------- */
 .container {
   max-width: 900px;
   margin: 40px auto;
@@ -32,27 +59,5 @@ header img {
 header h1 {
   margin-top: 15px;
   font-size: 28px;
-}
-
-/* ---------- Navigation (Left + Sticky) ---------- */
-nav {
-  position: sticky;
-  top: 0;
-  background: transparent; /* no background color */
-  padding: 15px 20px;
-  text-align: left; /* left-hand side */
-  z-index: 100; /* stays on top */
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  margin-right: 20px; /* spacing between links */
-  font-size: 16px;
-}
-
-nav a:hover {
-  text-decoration: underline; /* subtle hover */
-  background: none; /* no hover background */
 }
 
