@@ -1,7 +1,7 @@
 /* ---------- Global Styles ---------- */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background: #f7f7f7;
   color: #333;
 }
@@ -34,10 +34,26 @@ header h1 {
   font-size: 28px;
 }
 
-/* ---------- Navigation ---------- */
+/* ---------- Navigation (Left + Sticky) ---------- */
 nav {
-  text-align: center;
-  margin: 20px 0;
+  position: sticky;
+  top: 0;
+  background: transparent; /* no background color */
+  padding: 15px 20px;
+  text-align: left; /* left-hand side */
+  z-index: 100; /* stays on top */
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px; /* spacing between links */
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* subtle hover */
+  background: none; /* no hover background */
 }
 
 nav a {
