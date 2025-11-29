@@ -56,15 +56,3 @@ nav a:hover {
   background: none; /* no hover background */
 }
 
-nav a {
-  color: #333;
-  text-decoration: none;
-  margin: 0 15px;
-  padding: 10px 15px;
-  border-radius: 6px;
-  transition: 0.2s;
-}
-
-nav a:hover {
-  background: #e6e6e6;
-}
