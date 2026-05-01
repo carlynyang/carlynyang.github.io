@@ -322,7 +322,7 @@
       .nav-links { flex-direction: row; gap: 24px; }
       main { margin-left: 0; padding-bottom: 80px; }
 
-      .about-wrapper { grid-template-columns: 1fr; gap: 48px; padding: 40px 24px; }
+      .about-wrapper { grid-template-columns: auto 1fr; gap: 48px; padding: 40px 24px; }
       .about-photo { width: 100%; max-width: 100%; }
       .projects-wrapper { padding: 40px 24px 80px; }
       .project-item { grid-template-columns: 1fr; gap: 28px; }
