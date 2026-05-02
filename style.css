@@ -72,7 +72,7 @@
     .about-photo { width: 360px; aspect-ratio: 4/3; background: #111; overflow: hidden; flex-shrink: 0; }
     .about-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-    .about-content { padding-top: 8px; }
+    .about-content { padding-top: 8px; min-width: 0; overflow: hidden; }
 
     .about-name {
       font-family: 'Syne', sans-serif;
@@ -322,7 +322,7 @@
       .nav-links { flex-direction: row; gap: 24px; }
       main { margin-left: 0; padding-bottom: 80px; }
 
-      .about-wrapper { grid-template-columns: auto 1fr; gap: 48px; padding: 40px 24px; align-items: start; }
+      .about-wrapper { grid-template-columns: 1fr; gap: 48px; padding: 40px 24px; align-items: start; }
       .about-photo { width: 100%; max-width: 100%; }
       .projects-wrapper { padding: 40px 24px 80px; }
       .project-item { grid-template-columns: 1fr; gap: 28px; }
